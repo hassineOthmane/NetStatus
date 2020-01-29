@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetStatus_Example' do
+  pod 'NetStatus', :path => '../'
+
+  target 'NetStatus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
